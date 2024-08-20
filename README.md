@@ -111,4 +111,9 @@ bootstrap application
 to avoid importing prisma from node modules and to make it cleaner we export it frmo db
 so now importing would be db/prisma
 
+
+another important information is 
+if zerodha can send the request to hdfc webhook then why cant we send random request and keeps on creadtiting money infinite money glitch
+answer is  whenever thir is web hook their is some password shared between parties like zeodha and hdfc 
+everytime the request goes from zeodhha to hdfc it also has that password thus this lets hdfs filter the requewrst 
 <!-- @format -->
