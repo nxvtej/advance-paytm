@@ -106,4 +106,9 @@ another scenario why not merge it with the same deployment (reason is we can't a
 
 content from Cohort 0-1 by 100xdev
 
+bootstrap application
+![alt text](image.png)
+to avoid importing prisma from node modules and to make it cleaner we export it frmo db
+so now importing would be db/prisma
+
 <!-- @format -->
